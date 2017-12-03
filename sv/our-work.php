@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Breakfast Boys</title>
+        <title>Breakfast Boys - Våra Projekt</title>
         <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="keywords" content="design web development studio">
         <meta charset="utf-8">
-        <meta name="author" content="Roman Kirichik">
+        <meta name="author" content="thor felix adam">
         <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
         
@@ -19,189 +19,109 @@
         <link rel="stylesheet" href="../css/animate.min.css">
         <link rel="stylesheet" href="../css/vertical-rhythm.min.css">
         <link rel="stylesheet" href="../css/owl.carousel.css">
-        <link rel="stylesheet" href="../css/magnific-popup.css">
-        <link rel="stylesheet" href="../css/rev-slider.css">
-        <link rel="stylesheet" href="../rs-plugin/css/settings.css" media="screen" />        
-
+        <link rel="stylesheet" href="../css/magnific-popup.css">        
         
     </head>
     <body class="appear-animate">
         
         <!-- Page Loader -->        
         <div class="page-loader">
-            <div class="loader">Laddar...</div>
+            <div class="loader">Loading...</div>
         </div>
         <!-- End Page Loader -->
         
         <!-- Page Wrap -->
         <div class="page" id="top">
             
-            <!-- Home Section -->
-            <section class="home-section bg-dark" data-background="images/full-width-images/section-bg-17.jpg" id="home">
-                <div class="js-height-full">
-                    
-                    <!-- Hero Content -->
-                    <div class="home-content container">
-                        <div class="home-text">
-                            
-                      
-              
-                              <div class=" animated" id="hero-desc">
-                                      <span class="animated fadeIn" id="desc-item-1">Marknadsföring </span>  
-                                      <span class="animated fadeIn" id="desc-item-2">/ Design </span>  
-                                      <span class="animated fadeIn" id="desc-item-3">/ Utveckling </span>  
-                                      <span class="animated fadeIn" id="desc-item-4">/ Foto</span>
-                              </div>
-              
-                              <div class="animated" id="hero-title">
-                                  Breakfast Boys
-                              </div>
-                            
-                            <div class="" id="hero-btn">
-                                <a href="our-work.html" class="btn btn-mod btn-border-w btn-medium btn-round" id="">
-                                    Visa Våra Projekt
-                                </a>                    
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <!-- End Hero Content -->
-                    
-                    <!-- Scroll Down -->
-                    <div class="local-scroll demo" id="section04">
-                        <a href="#about"><span></span></a>
-                   </div>
-                    <!-- End Scroll Down -->
-                    
-                </div>
-            </section>
-            <!-- End Home Section -->
-            
-            
             <!-- Navigation panel -->
             <nav class="main-nav dark transparent stick-fixed">
-                    <div class="full-wrapper relative clearfix">
-                        <!-- Logo ( * your text or image into link tag *) -->
-                        <div class="nav-logo-wrap local-scroll">
-                            <a href="index.html" class="logo">
-                                <img src="images/logo-white.png" alt="" />
-                            </a>
-                        </div>
-                        <div class="mobile-nav">
-                            <i class="fa fa-bars"></i>
-                        </div>
-                        
-                        <!-- Main Menu -->
-                        <div class="inner-nav desktop-nav">
-                            <ul class="clearlist">
-                                
-                                <!-- Items -->
-                                
-                                <li >
-                                        <a href="index.html" class="active">Startsida</a>
-                                        
-                                    </li>
-                               
-                                <li>
-                                        <a href="our-work.html" class="active">Våra projekt</a>
-                                        
-                                    </li>
-                              
-                                <li>
-                                        <a href="who-we-are.html" class="active">Om Oss</a>
-                                        
-                                    </li>
-                              
-                                <li>
-                                        <a href="what-we-do.html" class="active">Vad Vi Gör</a>
-                                        
-                                    </li>
-                                
-                                <li>
-                                        <a href="contact.html" class="active">Kontakt</a>
-                                        
-                                    </li>
+    <div class="full-wrapper relative clearfix">
+        <!-- Logo ( * your text or image into link tag *) -->
+        <div class="nav-logo-wrap local-scroll">
+            <a href="index.php" class="logo">
+                <img src="images/logo-white.png" alt="" />
+            </a>
+        </div>
+        <div class="mobile-nav">
+            <i class="fa fa-bars"></i>
+        </div>
+        
+        <!-- Main Menu -->
+        <div class="inner-nav desktop-nav">
+            <ul class="clearlist">
+                
+                <!-- Items -->
+            <?php include('nav.html'); ?>
+            
+                <!-- End Items -->
+                
+                <!-- Divider -->
+                <li><a>&nbsp;</a></li>
+                <!-- End Divider -->
+                
+                <!-- Languages -->
 
-                                <li>
-                                    <a href="blog.html" class="active">blogg</a>
-                                    
-                                </li>
-                                <!-- End Items -->
-                                
-                                <!-- Divider -->
-                                <li><a>&nbsp;</a></li>
-                                <!-- End Divider -->
-                                
-                                <!-- Languages -->
-    
-                                <li class="phone-fix">
-                                    <a href="../index.html" class="active">English </a>
-                                    
-                                </li>
-    
-                               <li class="phone-fix-1">
-                                  <a href="#" class="mn-has-sub">SV <i class="fa fa-angle-down"></i></a>  
-                                
-                                <ul class="mn-sub">
-                                    
-                                    <li><a href="../index.html">English</a></li>
-                                    
-                                </ul>
-                                </li>
-                                <!-- End Languages -->
-                                
-                            </ul>
-                        </div>
-                        <!-- End Main Menu -->
-                        
-    
-                    </div>
-                </nav>
+                <li class="phone-fix">
+                    <a href="../our-work.php" class="active">English </a>
+                    
+                </li>
+
+               <li class="phone-fix-1">
+                  <a href="#" class="mn-has-sub">SV <i class="fa fa-angle-down"></i></a>  
+                
+                <ul class="mn-sub">
+                    
+                    <li><a href="../our-work.php">English</a></li>
+                    
+                </ul>
+                </li>
+                <!-- End Languages -->
+                
+            </ul>
+        </div>
+        <!-- End Main Menu -->
+        
+
+    </div>
+</nav>
                 <!-- End Navigation panel -->
 
+                <!-- Divider -->
+            <hr class="divider-lg mt-0 mb-0"/>
+            <!-- End Divider -->  
 
+ 
 
-            <!-- Divider -->
-            <hr class="mt-0 mb-0 z-index-50"/>
-            <!-- End Divider -->    
-            
-            <!-- About Section -->
-            <section class="page-section bg-dark" id="about">
-                <div class="relative container-1400">
-
-                    <!-- Hero Content -->
-                    <div class="home-content">
-                        <div class="home-text align-center">
-                            <div class="row">
-                                <div class="col-sm-10 col-sm-offset-1">
-                                
-                                    <h2 class=" hs-line-15 font-alt mb-0 align-left">
-                                            Frukost är det viktigaste målet på dagen.
-                                            <br> 
-                                        <br> 
-                                            En snygg och lättanvänd hemsida är den viktigaste delen i ett företag.
-                                        
-                                    </h2>
-                                    
-                                    <h2 class=" section-title font-alt align-left">
-                                            <a href="what-we-do.html" class="section-more left">Mer om oss <i class="fa fa-angle-right"></i></a>
-                                    </h2>
-                                    
-                                </div>                                
-                            </div>
+           <!-- Section -->
+           <section class="small-section bg-blue">
+            <div class="relative container align-left">
+                
+                <div class="row">
+                    
+                    <div class="col-md-8">
+                        <h1 class=" hs-line-11 font-alt mb-20 mb-xs-0">Våra Arbeten</h1>
+                     
+                        <div class=" hs-line-4 font-alt">
+                            Kolla in våra senaste project
                         </div>
                     </div>
-                    <!-- End Hero Content -->
-
                     
-
+                    <div class="col-md-4 mt-30">
+                        <div class="mod-breadcrumbs font-alt align-right">
+                            <a href="index.php">Startsida</a>&nbsp;/&nbsp;<span>Våra project</span>
+                        </div>
+                        
+                    </div>
                 </div>
-            </section>
-            <!-- End About Section -->
-            
-            
+                
+            </div>
+        </section>
+        <!-- End Section -->
 
-      
+          
+          
+            
+            
             <!-- Portfolio Section -->
             <section class="page-section pb-0 background-dark padding-top-portfolio">
                 <div class="relative">
@@ -295,8 +215,28 @@
             
  
             
+            <!-- Call Action Section -->
+            <section class="small-section bg-dark">
+                <div class="container relative">
+                    
+                    
+                    <div class=" align-center">
+                            <h3 class="banner-heading font-alt">Gillar du vad du ser?</h3>
+                            <div class="local-scroll">
+                                <a href="#contact" class="btn btn-mod btn-w btn-medium btn-round">Kontakta oss</a>
+                            </div>
+                        </div>
+                    
+                </div>
+            </section>
+            <!-- End Call Action Section -->
+            
+                        <!-- Divider -->
+                        <hr class="mt-0 mb-0 "/>
+                        <!-- End Divider -->  
 
-            <!-- Contact Section -->
+
+                        <!-- Contact Section -->
             <section class="page-section bg-dark" id="contact">
                 <div class="container relative">
                     
@@ -434,56 +374,9 @@
             <!-- End Divider -->  
             
             
-            <!-- Foter -->
-            <footer class="page-section bg-dark footer pb-60">
-                <div class="container">
-                    
-                    <!-- Footer Logo -->
-                    <div class="local-scroll mb-30 wow fadeInUp inverted" data-wow-duration="1.5s">
-                        <a href="index.html"><img src="images/logo-footer.png" width="78" height="36" alt="" /></a>
-                    </div>
-                    <!-- End Footer Logo -->
-                    
-                    <!-- Social Links -->
-                    <!-- <div class="footer-social-links mb-50 mb-xs-60">
-                        <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                        <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    </div> -->
-                    <!-- End Social Links -->  
-                    
-                    <!-- Footer Text -->
-                    <div class="footer-text">
-                        
-                        <!-- Copyright -->
-                        <div class="footer-copy font-alt">
-                            <a href="#" target="_blank">Copyright &copy; Breakfast Boys 2017</a>.
-                        </div>
-                        <!-- End Copyright -->
-                        
-                        <div class="footer-made">
-                           
-                            <div>
-                            Gjord med kärlek för underbara upplevelser.
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- End Footer Text --> 
-                    
-                 </div>
-                 
-                 
-                 <!-- Top Link -->
-                 <div class="local-scroll">
-                     <a href="#top" class="link-to-top"><i class="fa fa-caret-up"></i></a>
-                 </div>
-                 <!-- End Top Link -->
-                 
-            </footer>
-            <!-- End Foter -->
+            <!-- footer -->
+            <?php include('footer.html'); ?>
+            <!-- End footer -->
         
         
         </div>
@@ -516,10 +409,7 @@
         <script type="text/javascript" src="../js/jquery.simple-text-rotator.min.js"></script>
         <script type="text/javascript" src="../js/all.js"></script>
         <script type="text/javascript" src="../js/contact-form.js"></script>
-        <script type="text/javascript" src="../js/jquery.ajaxchimp.min.js"></script> 
-        <script type="text/javascript" src="../rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="../rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="../js/rev-slider.js"></script>        
+        <script type="text/javascript" src="../js/jquery.ajaxchimp.min.js"></script>        
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
         
     </body>

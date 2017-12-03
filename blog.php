@@ -35,84 +35,52 @@
             
             <!-- Navigation panel -->
             <nav class="main-nav dark transparent stick-fixed">
-                <div class="full-wrapper relative clearfix">
-                    <!-- Logo ( * your text or image into link tag *) -->
-                    <div class="nav-logo-wrap local-scroll">
-                        <a href="index.html" class="logo">
-                            <img src="images/logo-white.png" alt="" />
-                        </a>
-                    </div>
-                    <div class="mobile-nav">
-                        <i class="fa fa-bars"></i>
-                    </div>
+    <div class="full-wrapper relative clearfix">
+        <!-- Logo ( * your text or image into link tag *) -->
+        <div class="nav-logo-wrap local-scroll">
+            <a href="index.php" class="logo">
+                <img src="images/logo-white.png" alt="" />
+            </a>
+        </div>
+        <div class="mobile-nav">
+            <i class="fa fa-bars"></i>
+        </div>
+        
+        <!-- Main Menu -->
+        <div class="inner-nav desktop-nav">
+            <ul class="clearlist">
+            <?php include('nav.html'); ?>
+            <!-- End Items -->
+                
+                <!-- Divider -->
+                <li><a>&nbsp;</a></li>
+                <!-- End Divider -->
+                
+                <!-- Languages -->
+
+               <li class="phone-fix">
+                    <a href="sv/blog.php" class="active">Svenska</a>
                     
-                    <!-- Main Menu -->
-                    <div class="inner-nav desktop-nav">
-                        <ul class="clearlist" >
-                            
-                            <!-- Items -->
-                            <li >
-                                <a href="index.html" class="active">Home</a>
-                                
-                            </li>
-                            
-                            <li>
-                                <a href="our-work.html" class="active">Our Work</a>
-                                
-                            </li>
-                            
-                            <li>
-                                <a href="who-we-are.html" class="active">Who We Are</a>
-                                
-                            </li>
-                            
-                            <li>
-                                <a href="what-we-do.html" class="active">What We Do</a>
-                                
-                            </li>
-                            
-                            <li>
-                                <a href="contact.html" class="active">Contact</a>
-                                
-                            </li>
-                            <li>
-                                <a href="blog.html" class="active">Blog</a>
-                                
-                            </li>
+                </li>
 
-                         
-                            
-                            <!-- End Items -->
-                            
-                            <!-- Divider -->
-                            <li><a>&nbsp;</a></li>
-                            <!-- End Divider -->
-                            
-                            <!-- Languages -->
-
-                           <li class="phone-fix">
-                                <a href="sv/blog.html" class="active">Svenska</a>
-                                
-                            </li>
-
-                           <li class="phone-fix-1">
-                              <a href="#" class="mn-has-sub">ENG <i class="fa fa-angle-down"></i></a>  
-                            
-                            <ul class="mn-sub">
-                                
-                                <li><a href="sv/blog.html">Svenska</a></li>
-                                
-                            </ul>
-                            </li>
-                            <!-- End Languages -->
-                            
-                        </ul>
-                    </div>
-                    <!-- End Main Menu -->
+               <li class="phone-fix-1">
+                  <a href="#" class="mn-has-sub">ENG <i class="fa fa-angle-down"></i></a>  
+                
+                <ul class="mn-sub">
                     
+                    <li><a href="sv/blog.php">Svenska</a></li>
+                    
+                </ul>
+                </li>
+                <!-- End Languages -->
+                
+            </ul>
+        </div>
+        <!-- End Main Menu -->
+        
 
-                </div>
-            </nav>
+    </div>
+</nav>
             <!-- End Navigation panel -->
             
             
@@ -131,7 +99,7 @@
                         
                         <div class="col-md-4 mt-30">
                             <div class="mod-breadcrumbs font-alt align-right color-white">
-                                <a href="index.html" class="color-white">Home</a>&nbsp;/&nbsp;<span>Blog</span>
+                                <a href="index.php" class="color-white">Home</a>&nbsp;/&nbsp;<span>Blog</span>
                             </div>
                             
                         </div>
@@ -155,7 +123,7 @@
                            <div class="blog-item">
                             
                             <!-- Post Title -->
-                            <h2 class="blog-item-title font-alt"><a href="blogpost-2.html">5 WAYS TO MAKE YOUR WEBSITE MODERN</a></h2>
+                            <h2 class="blog-item-title font-alt"><a href="blogpost-2.php">5 WAYS TO MAKE YOUR WEBSITE MODERN</a></h2>
                             
                             <!-- Author, Categories, Comments -->
                             <div class="blog-item-data">
@@ -166,7 +134,7 @@
                             
                             <!-- Image -->
                             <div class="blog-media">
-                                <a href="blogpost-2.html"><img src="images/portfolio/projects-sthlm.jpg" alt="" /></a>
+                                <a href="blogpost-2.php"><img src="images/portfolio/projects-sthlm.jpg" alt="" /></a>
                             </div>
                             
                             <!-- Text Intro -->
@@ -178,7 +146,7 @@
                             
                             <!-- Read More Link -->
                             <div class="blog-item-foot">
-                                <a href="blogpost-2.html" class="btn btn-mod btn-round  btn-small">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="blogpost-2.php" class="btn btn-mod btn-round  btn-small">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                             
                         </div>
@@ -188,7 +156,7 @@
                             <div class="blog-item">
                                 
                                 <!-- Post Title -->
-                                <h2 class="blog-item-title font-alt"><a href="blogpost-1.html">google's latest design uppdate</a></h2>
+                                <h2 class="blog-item-title font-alt"><a href="blogpost-1.php">google's latest design uppdate</a></h2>
                                 
                                 <!-- Author, Categories, Comments -->
                                 <div class="blog-item-data">
@@ -211,7 +179,7 @@
                                 
                                 <!-- Read More Link -->
                             <div class="blog-item-foot">
-                                <a href="blogpost-1.html" class="btn btn-mod btn-round  btn-small">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="blogpost-1.php" class="btn btn-mod btn-round  btn-small">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                                
                                 
@@ -240,31 +208,7 @@
                            
                             
                             <!-- Widget -->
-                            <div class="widget">
-                                
-                                <h5 class="widget-title font-alt">Latest posts</h5>
-                                
-                                <div class="widget-body">
-                                    <ul class="clearlist widget-posts">
-                                        <li class="clearfix">
-                                            <a href="blogpost-2.html"><img src="images/blog/previews/post-prev-2.jpg" alt="" class="widget-posts-img" /></a>
-                                            <div class="widget-posts-descr">
-                                                <a href="blogpost-2.html" title="">5 WAYS TO MAKE YOUR WEBSITE MODERN</a>
-                                                1 Dec
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <a href="blogpost-1.html"><img src="images/blog/previews/post-prev-1.jpg" alt="" class="widget-posts-img" /></a>
-                                            <div class="widget-posts-descr">
-                                                <a href="blogpost-1.html" title="">GOOGLE'S LATEST DESIGN UPPDATE</a>
-                                                20 Nov 
-                                            </div>
-                                        </li>
-                                       
-                                    </ul>
-                                </div>
-                                
-                            </div>
+                            <?php include('latest-post-widget.html'); ?>
                             <!-- End Widget -->
                             
                             
@@ -282,56 +226,9 @@
             
             
            
-            <!-- Foter -->
-            <footer class="page-section bg-dark footer pb-60">
-                <div class="container">
-                    
-                    <!-- Footer Logo -->
-                    <div class="local-scroll mb-30 wow fadeInUp inverted" data-wow-duration="1.5s">
-                        <a href="index.html"><img src="images/logo-footer.png" width="78" height="36" alt="" /></a>
-                    </div>
-                    <!-- End Footer Logo -->
-                    
-                    <!-- Social Links -->
-                    <!-- <div class="footer-social-links mb-50 mb-xs-60">
-                        <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                        <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    </div> -->
-                    <!-- End Social Links -->  
-                    
-                    <!-- Footer Text -->
-                    <div class="footer-text">
-                        
-                        <!-- Copyright -->
-                        <div class="footer-copy font-alt">
-                            <a href="#" target="_blank">Copyright &copy; Breakfast Boys 2017</a>.
-                        </div>
-                        <!-- End Copyright -->
-                        
-                        <div class="footer-made">
-                            <div class="">
-                            Made with love for great experiences.
-                            </div>
-                          
-                        </div>
-                        
-                    </div>
-                    <!-- End Footer Text --> 
-                    
-                 </div>
-                 
-                 
-                 <!-- Top Link -->
-                 <div class="local-scroll">
-                     <a href="#top" class="link-to-top"><i class="fa fa-caret-up"></i></a>
-                 </div>
-                 <!-- End Top Link -->
-                 
-            </footer>
-            <!-- End Foter -->
+            <!-- footer -->
+            <?php include('footer.html'); ?>
+            <!-- End footer -->
         
         
         </div>
