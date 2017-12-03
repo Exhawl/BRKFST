@@ -79,6 +79,7 @@
             
             
             <!-- Navigation panel -->
+<<<<<<< HEAD:index.php
             <nav class="main-nav dark transparent stick-fixed">
     <div class="full-wrapper relative clearfix">
         <!-- Logo ( * your text or image into link tag *) -->
@@ -126,6 +127,9 @@
 
     </div>
 </nav>
+=======
+            <?php include('nav.html'); ?>
+>>>>>>> e9e776230c872c3f4b511233a5918bd0deff8e9a:index.php
             <!-- Divider -->
             <hr class="mt-0 mb-0 z-index-50"/>
             <!-- End Divider -->    
