@@ -34,83 +34,61 @@
         <div class="page" id="top">
             
              <!-- Navigation panel -->
-            <nav class="main-nav dark transparent stick-fixed">
-                <div class="full-wrapper relative clearfix">
-                    <!-- Logo ( * your text or image into link tag *) -->
-                    <div class="nav-logo-wrap local-scroll">
-                        <a href="index.html" class="logo">
-                            <img src="images/logo-white.png" alt="" />
-                        </a>
-                    </div>
-                    <div class="mobile-nav">
-                        <i class="fa fa-bars"></i>
-                    </div>
-                    
-                    <!-- Main Menu -->
-                    <div class="inner-nav desktop-nav">
-                        <ul class="clearlist">
-                            
-                            <!-- Items -->
-                            <li>
-                                <a href="index.html" class="active">Home</a>
-                                
-                            </li>
-                        
-                            <li>
-                                <a href="our-work.html" class="active">Our Work</a>
-                                
-                            </li>
-                            
-                            <li>
-                                <a href="who-we-are.html" class="active">Who We Are</a>
-                                
-                            </li>
-                            
-                            <li>
-                                <a href="what-we-do.html" class="active">What We Do</a>
-                                
-                            </li>
-                           
-                            <li>
-                                <a href="contact.html" class="active">Contact</a>
-                                
-                            </li>
-                          
-                            <!-- End Items -->
-                            
-                            <!-- Divider -->
-                            <li><a>&nbsp;</a></li>
-                            <!-- End Divider -->
-                            
-                            <!-- Languages -->
+<<<<<<< HEAD:who-we-are.php
+             <nav class="main-nav dark transparent stick-fixed">
+    <div class="full-wrapper relative clearfix">
+        <!-- Logo ( * your text or image into link tag *) -->
+        <div class="nav-logo-wrap local-scroll">
+            <a href="index.php" class="logo">
+                <img src="images/logo-white.png" alt="" />
+            </a>
+        </div>
+        <div class="mobile-nav">
+            <i class="fa fa-bars"></i>
+        </div>
+        
+        <!-- Main Menu -->
+        <div class="inner-nav desktop-nav">
+            <ul class="clearlist">
+             <?php include('nav.html'); ?>
+             <!-- End Items -->
+                
+                <!-- Divider -->
+                <li><a>&nbsp;</a></li>
+                <!-- End Divider -->
+                
+                <!-- Languages -->
 
-                           <li class="phone-fix">
-                                    <a href="sv/who-we-are.html" class="active">Svenska</a>
-                                    
-                                </li>
-    
-                               <li class="phone-fix-1">
-                                  <a href="#" class="mn-has-sub">ENG <i class="fa fa-angle-down"></i></a>  
-                                
-                                <ul class="mn-sub">
-                                    
-                                    <li><a href="sv/who-we-are.html">Svenska</a></li>
-                                    
-                                </ul>
-                                </li>
-                            <!-- End Languages -->
-                            
-                        </ul>
-                    </div>
-                    <!-- End Main Menu -->
+               <li class="phone-fix">
+                    <a href="sv/who-we-are.php" class="active">Svenska</a>
                     
+                </li>
 
-                </div>
-            </nav>
+               <li class="phone-fix-1">
+                  <a href="#" class="mn-has-sub">ENG <i class="fa fa-angle-down"></i></a>  
+                
+                <ul class="mn-sub">
+                    
+                    <li><a href="sv/who-we-are.php">Svenska</a></li>
+                    
+                </ul>
+                </li>
+                <!-- End Languages -->
+                
+            </ul>
+        </div>
+        <!-- End Main Menu -->
+        
+
+    </div>
+</nav>
+=======
+             <?php include('nav.html'); ?>
+>>>>>>> e9e776230c872c3f4b511233a5918bd0deff8e9a:who-we-are.php
             <!-- End Navigation panel -->
 
               <!-- Divider -->
-            <!-- <hr class="divider-lg mt-0 mb-0"/> -->
+            <hr class="divider-lg mt-0 mb-0"/>
             <!-- End Divider -->  
 
  
@@ -130,7 +108,7 @@
                     
                     <div class="col-md-4 mt-30">
                         <div class="mod-breadcrumbs font-alt align-right">
-                            <a href="index.html">Home</a>&nbsp;/&nbsp;<span>About</span>
+                            <a href="index.php">Home</a>&nbsp;/&nbsp;<span>About</span>
                         </div>
                         
                     </div>
@@ -159,7 +137,7 @@
                                                 </h2>
                                                 
                                                 <h2 class=" section-title font-alt align-left">
-                                                    <a href="what-we-do.html" class="section-more left">What we do <i class="fa fa-angle-right"></i></a>
+                                                    <a href="what-we-do.php" class="section-more left">What we do <i class="fa fa-angle-right"></i></a>
                                                 </h2>
                                                 
                                     </div>                                
@@ -213,7 +191,7 @@
                                 
                                 <div class="team-item-image">
                                     
-                                    <img src="images/team/team-1.jpg" alt="" />
+                                    <img src="images/team/team-1-black.jpg" alt="" />
                                     
                                 </div>
                                 
@@ -267,7 +245,7 @@
                                 
                                 <div class="team-item-image">
                                     
-                                    <img src="images/team/team-3.jpg" alt="" />
+                                    <img src="images/team/team-3-black.jpg" alt="" />
                                     
                                 </div>
                                 
@@ -294,7 +272,7 @@
                                 
                                 <div class="team-item-image">
                                     
-                                    <img src="images/team/team-4.jpg" alt="" />
+                                    <img src="images/team/team-4-black.jpg" alt="" />
                                     
                                 </div>
                                 
@@ -461,56 +439,9 @@
             <hr class="mt-0 mb-0 "/>
             <!-- End Divider -->  
             
-           <!-- Foter -->
-           <footer class="page-section bg-dark footer pb-60">
-                <div class="container">
-                    
-                    <!-- Footer Logo -->
-                    <div class="local-scroll mb-30 wow fadeInUp inverted" data-wow-duration="1.5s">
-                        <a href="index.html"><img src="images/logo-footer.png" width="78" height="36" alt="" /></a>
-                    </div>
-                    <!-- End Footer Logo -->
-                    
-                    <!-- Social Links -->
-                    <!-- <div class="footer-social-links mb-50 mb-xs-60">
-                        <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                        <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    </div> -->
-                    <!-- End Social Links -->  
-                    
-                    <!-- Footer Text -->
-                    <div class="footer-text">
-                        
-                        <!-- Copyright -->
-                        <div class="footer-copy font-alt">
-                            <a href="#" target="_blank">Copyright &copy; Breakfast Boys 2017</a>.
-                        </div>
-                        <!-- End Copyright -->
-                        
-                        <div class="footer-made">
-                                <div class="">
-                                Made with love for great experiences.
-                                </div>
-                                
-                            </div>
-                        
-                    </div>
-                    <!-- End Footer Text --> 
-                    
-                 </div>
-                 
-                 
-                 <!-- Top Link -->
-                 <div class="local-scroll">
-                     <a href="#top" class="link-to-top"><i class="fa fa-caret-up"></i></a>
-                 </div>
-                 <!-- End Top Link -->
-                 
-            </footer>
-            <!-- End Foter -->
+           <!-- footer -->
+           <?php include('footer.html'); ?>
+            <!-- End footer -->
         
         
         </div>
@@ -545,6 +476,16 @@
         <script type="text/javascript" src="js/contact-form.js"></script>
         <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>        
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109369145-1"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-109369145-1');
+        </script>
         
     </body>
 </html>

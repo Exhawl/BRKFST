@@ -13,15 +13,15 @@
         <link rel="shortcut icon" href="images/favicon.png">
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/style-responsive.css">
-        <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/vertical-rhythm.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/rev-slider.css">
-        <link rel="stylesheet" href="rs-plugin/css/settings.css" media="screen" />        
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style-responsive.css">
+        <link rel="stylesheet" href="../css/animate.min.css">
+        <link rel="stylesheet" href="../css/vertical-rhythm.min.css">
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <link rel="stylesheet" href="../css/magnific-popup.css">
+        <link rel="stylesheet" href="../css/rev-slider.css">
+        <link rel="stylesheet" href="../rs-plugin/css/settings.css" media="screen" />        
 
         
     </head>
@@ -29,7 +29,7 @@
         
         <!-- Page Loader -->        
         <div class="page-loader">
-            <div class="loader">Loading...</div>
+            <div class="loader">Laddar...</div>
         </div>
         <!-- End Page Loader -->
         
@@ -44,22 +44,22 @@
                     <div class="home-content container">
                         <div class="home-text">
                             
-                            <div class="animated" id="hero-desc">
-                                <span class="animated fadeIn" id="desc-item-1">Marketing </span>  
-                                <span class="animated fadeIn" id="desc-item-2">/ Design </span>  
-                                <span class="animated fadeIn" id="desc-item-3">/ Development </span>  
-                                <span class="animated fadeIn" id="desc-item-4">/ Photo</span>
-                              </div>
+                      
               
-                            
+                              <div class=" animated" id="hero-desc">
+                                      <span class="animated fadeIn" id="desc-item-1">Marknadsföring </span>  
+                                      <span class="animated fadeIn" id="desc-item-2">/ Design </span>  
+                                      <span class="animated fadeIn" id="desc-item-3">/ Utveckling </span>  
+                                      <span class="animated fadeIn" id="desc-item-4">/ Foto</span>
+                              </div>
               
                               <div class="animated" id="hero-title">
                                   Breakfast Boys
                               </div>
                             
                             <div class="" id="hero-btn">
-                                <a href="our-work.html" class="btn btn-mod btn-border-w btn-medium btn-round" id="">
-                                    Show Our Work
+                                <a href="our-work.php" class="btn btn-mod btn-border-w btn-medium btn-round" id="">
+                                    Visa Våra Projekt
                                 </a>                    
                             </div>
                             
@@ -79,81 +79,60 @@
             
             
             <!-- Navigation panel -->
+<<<<<<< HEAD:sv/index.php
             <nav class="main-nav dark transparent stick-fixed">
-                    <div class="full-wrapper relative clearfix">
-                        <!-- Logo ( * your text or image into link tag *) -->
-                        <div class="nav-logo-wrap local-scroll">
-                            <a href="index.html" class="logo">
-                                <img src="images/logo-white.png" alt="" />
-                            </a>
-                        </div>
-                        <div class="mobile-nav">
-                            <i class="fa fa-bars"></i>
-                        </div>
-                        
-                        <!-- Main Menu -->
-                        <div class="inner-nav desktop-nav">
-                            <ul class="clearlist">
-                                
-                                <!-- Items -->
-                                <li >
-                                    <a href="index.html" class="active">Home</a>
-                                    
-                                </li>
-                                
-                                <li>
-                                    <a href="our-work.html" class="active">Our Work</a>
-                                    
-                                </li>
-                                
-                                <li>
-                                    <a href="who-we-are.html" class="active">Who We Are</a>
-                                    
-                                </li>
-                                
-                                <li>
-                                    <a href="what-we-do.html" class="active">What We Do</a>
-                                    
-                                </li>
-                                
-                                <li>
-                                    <a href="contact.html" class="active">Contact</a>
-                                    
-                                </li>
+    <div class="full-wrapper relative clearfix">
+        <!-- Logo ( * your text or image into link tag *) -->
+        <div class="nav-logo-wrap local-scroll">
+            <a href="index.php" class="logo">
+                <img src="images/logo-white.png" alt="" />
+            </a>
+        </div>
+        <div class="mobile-nav">
+            <i class="fa fa-bars"></i>
+        </div>
+        
+        <!-- Main Menu -->
+        <div class="inner-nav desktop-nav">
+            <ul class="clearlist">
+                
+                <!-- Items -->
+            <?php include('nav.html'); ?>
+            
+                <!-- End Items -->
+                
+                <!-- Divider -->
+                <li><a>&nbsp;</a></li>
+                <!-- End Divider -->
+                
+                <!-- Languages -->
 
-                             
-                                
-                                <!-- End Items -->
-                                
-                                <!-- Divider -->
-                                <li><a>&nbsp;</a></li>
-                                <!-- End Divider -->
-                                
-                                <!-- Languages -->
+                <li class="phone-fix">
+                    <a href="../index.php" class="active">English </a>
+                    
+                </li>
 
-                               <li class="phone-fix">
-                                    <a href="sv/index.html" class="active">Svenska</a>
-                                    
-                                </li>
-    
-                               <li class="phone-fix-1">
-                                  <a href="#" class="mn-has-sub">ENG <i class="fa fa-angle-down"></i></a>  
-                                
-                                <ul class="mn-sub">
-                                    
-                                    <li><a href="sv/index.html">Svenska</a></li>
-                                    
-                                </ul>
-                                </li>
-                                <!-- End Languages -->
-                                
-                            </ul>
-                        </div>
-                        <!-- End Main Menu -->
-                        
-    
-                    </div>
-                </nav>
+               <li class="phone-fix-1">
+                  <a href="#" class="mn-has-sub">SV <i class="fa fa-angle-down"></i></a>  
+                
+                <ul class="mn-sub">
+                    
+                    <li><a href="../index.php">English</a></li>
+                    
+                </ul>
+                </li>
+                <!-- End Languages -->
+                
+            </ul>
+        </div>
+        <!-- End Main Menu -->
+        
+
+    </div>
+</nav>
+=======
+            <?php include('nav.html'); ?>
+>>>>>>> e9e776230c872c3f4b511233a5918bd0deff8e9a:sv/index.php
                 <!-- End Navigation panel -->
 
 
@@ -171,16 +150,18 @@
                         <div class="home-text align-center">
                             <div class="row">
                                 <div class="col-sm-10 col-sm-offset-1">
+                                
                                     <h2 class=" hs-line-15 font-alt mb-0 align-left">
-                                        BREAKFAST IS THE MOST IMPORTANT <br> MEAL OF THE DAY. <br> 
+                                            Frukost är det viktigaste målet på dagen.
+                                            <br> 
                                         <br> 
-                                        A FUNCTIONAL AND GOOD-LOOKING WEBSITE IS THE MOST IMPORTANT PART OF A BUSINESS.
+                                            En snygg och lättanvänd hemsida är den viktigaste delen i ett företag.
+                                        
                                     </h2>
                                     
                                     <h2 class=" section-title font-alt align-left">
-                                        <a href="what-we-do.html" class="section-more left">What we do <i class="fa fa-angle-right"></i></a>
+                                            <a href="what-we-do.php" class="section-more left">Mer om oss <i class="fa fa-angle-right"></i></a>
                                     </h2>
-                                    
                                     
                                 </div>                                
                             </div>
@@ -206,17 +187,16 @@
                         
                         <!-- Work Item (Lightbox) -->
                         <li class="work-item mix photography">
-                            <a href="images/portfolio/sthlm-1.png" class="work-lightbox-link mfp-image">
-                            
+                            <a href="images/portfolio/laptop-sthlm.png" class="work-lightbox-link mfp-image">
                                 <div class="work-img">
                                     <img class="work-img" src="images/portfolio/projects-sthlm.jpg" alt="Work">
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Sthlm Hotel</h3>
-                                    <div class="work-descr">
-                                        Show preview
-                                    </div>
                                     
+                                    <div class=" work-descr">
+                                        Visa mer
+                                    </div>
                                 </div>
                             </a>
                         </li>
@@ -227,16 +207,15 @@
                         <!-- Work Item (External Page) -->
                         <li class="work-item mix branding design">
                             <a href="images/portfolio/loelle-2.png" class="lightbox-gallery-1 mfp-image">
-                            
                                 <div class="work-img">
                                     <img class="work-img" src="images/portfolio/projects-loelle.jpg" alt="Work" />
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Loelle</h3>
-                                    <div class=" work-descr">
-                                        Show preview
-                                    </div>
                                    
+                                    <div class=" work-descr">
+                                            Visa mer
+                                        </div>
                                 </div>
                             </a>
                         </li>
@@ -252,10 +231,10 @@
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">CBS</h3>
+                                  
                                     <div class=" work-descr">
-                                        Show preview
-                                    </div>
-                                    
+                                            Visa mer
+                                        </div>
                                 </div>
                             </a>
                         </li>
@@ -271,10 +250,10 @@
                                 </div>
                                 <div class="work-intro">
                                     <h3 class="work-title">Ett Smart Hotell</h3>
-                                    <div class=" work-descr">
-                                        Show preview
-                                    </div>
                                     
+                                    <div class=" work-descr">
+                                            Visa mer
+                                        </div>
                                 </div>
                             </a>
                         </li>
@@ -297,17 +276,19 @@
             <section class="page-section bg-dark" id="contact">
                 <div class="container relative">
                     
-                    <h2 class=" section-title font-alt mb-70 mb-sm-40">
-                        CONTACT
-                    </h2>
                    
+                    <h2 class=" section-title font-alt mb-70 mb-sm-40">
+                        KONTAKT
+                    </h2>
                     
                     <div class="row mb-60 mb-xs-40">
                         
-                            <div class=" col-md-8 col-md-offset-2 col-sm-12 mb-sm-50 mb-xs-30 uppercase align-center">
-                                We would love to hear from you!<br> Drop us a line and we'll get back to you within 24hrs.
-                            </div>
                            
+                            <div class=" col-md-8 col-md-offset-2 col-sm-12 mb-sm-50 mb-xs-30 uppercase align-center">
+                                    Hör gärna av dig till oss!
+                                    <br> skicka ett kort medelande så hör vi av oss inom 24h.
+                                    
+                            </div>
                         
                     </div>
                     
@@ -322,7 +303,7 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="ci-title font-alt">
-                                    Phone
+                                    Telefon
                                 </div>
                                 <div class="ci-text">
                                     +46 76 044 66 94
@@ -338,10 +319,10 @@
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="ci-title font-alt">
-                                    Address
+                                    Adress
                                 </div>
                                 <div class="ci-text">
-                                    Stockholm, Sweden
+                                    Stockholm, Sverige
                                 </div>
                             </div>
                             <!-- End Address -->
@@ -354,7 +335,7 @@
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="ci-title font-alt">
-                                    Email
+                                    E-post
                                 </div>
                                 <div class="ci-text">
                                     <a href="mailto:contact@breakfastboys.se">contact@breakfastboys.se</a>
@@ -369,23 +350,23 @@
                             <form class="form contact-form" id="contact_form">
                                 <div class="clearfix">
                                     
-                                    <div class=" mb-20 mb-md-10">
-                                    <!-- Name -->
-                                    <input type="text" name="name" id="name-4" class="form-control input-lg" placeholder="Name" maxlength="100">
-                                </div>
-                               
+                                    
+                                <div class=" mb-20 mb-md-10">
+                                   <!-- Name -->
+                                   <input type="text" name="name" id="name-4" class="form-control input-lg" placeholder="Namn" maxlength="100">
+                               </div>
                                    
+                                
                                <div class="  mb-20 mb-md-10">
-                                   <!-- Email -->
-                                   <input type="email" name="email" id="email-4" class="form-control input-lg" placeholder="Email" maxlength="100">
-                               </div>   
-                              
-   
-                               <div class=" mb-20 mb-md-10">
-                                   <!-- Message -->
-                                   <textarea name="message" id="message" class="form-control input-md" style="height: 81px;" placeholder="Message"></textarea>
+                                    <!-- Email -->
+                                   <input type="email" name="email" id="email-4" class="form-control input-lg" placeholder="E-post" maxlength="100">
                                </div> 
-                                  
+   
+                               
+                               <div class="mb-20 mb-md-10">
+                                   <!-- Message -->
+                                   <textarea name="message" id="message" class="form-control input-md" style="height: 81px;" placeholder="Ditt Medelande"></textarea>
+                               </div>   
                                     
                                 </div>
                                         
@@ -395,7 +376,7 @@
                                         
                                         <!-- Inform Tip -->                                        
                                         <div class="form-tip pt-20">
-                                            <i class="fa fa-info-circle"></i> All the fields are required
+                                            <i class="fa fa-info-circle"></i> Var god fyll i alla fält
                                         </div>
                                         
                                     </div>
@@ -404,7 +385,7 @@
                                         
                                         <!-- Send Button -->
                                         <div class="align-right pt-10">
-                                            <button class="submit_btn btn btn-mod btn-medium" id="submit_btn">Submit</button>
+                                            <button class="submit_btn btn btn-mod btn-medium" id="submit_btn">Skicka</button>
                                         </div>
                                         
                                     </div>
@@ -429,56 +410,9 @@
             <!-- End Divider -->  
             
             
-            <!-- Foter -->
-            <footer class="page-section bg-dark footer pb-60">
-                <div class="container">
-                    
-                    <!-- Footer Logo -->
-                    <div class="local-scroll mb-30 wow fadeInUp inverted" data-wow-duration="1.5s">
-                        <a href="index.html"><img src="images/logo-footer.png" width="78" height="36" alt="" /></a>
-                    </div>
-                    <!-- End Footer Logo -->
-                    
-                    <!-- Social Links -->
-                    <!-- <div class="footer-social-links mb-50 mb-xs-60">
-                        <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                        <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    </div> -->
-                    <!-- End Social Links -->  
-                    
-                    <!-- Footer Text -->
-                    <div class="footer-text">
-                        
-                        <!-- Copyright -->
-                        <div class="footer-copy font-alt">
-                            <a href="#" target="_blank">Copyright &copy; Breakfast Boys 2017</a>.
-                        </div>
-                        <!-- End Copyright -->
-                        
-                        <div class="footer-made">
-                            <div class="">
-                            Made with love for great experiences.
-                            </div>
-                          
-                        </div>
-                        
-                    </div>
-                    <!-- End Footer Text --> 
-                    
-                 </div>
-                 
-                 
-                 <!-- Top Link -->
-                 <div class="local-scroll">
-                     <a href="#top" class="link-to-top"><i class="fa fa-caret-up"></i></a>
-                 </div>
-                 <!-- End Top Link -->
-                 
-            </footer>
-            <!-- End Foter -->
+            <!-- footer -->
+            <?php include('footer.html'); ?>
+            <!-- End footer -->
         
         
         </div>
@@ -486,35 +420,35 @@
         
         
         <!-- JS -->
-        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>        
-        <script type="text/javascript" src="js/SmoothScroll.js"></script>
-        <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
-        <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
-        <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
-        <script type="text/javascript" src="js/jquery.countTo.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
-        <script type="text/javascript" src="js/jquery.sticky.js"></script>
-        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>        
+        <script type="text/javascript" src="../js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="../js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.localScroll.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.viewport.mini.js"></script>
+        <script type="text/javascript" src="../js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="../js/jquery.appear.js"></script>
+        <script type="text/javascript" src="../js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="../js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="../js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="../js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="../js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
         <!-- Replace test API Key "AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg" with your own one below 
         **** You can get API Key here - https://developers.google.com/maps/documentation/javascript/get-api-key -->
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg"></script>
-        <script type="text/javascript" src="js/gmap3.min.js"></script>
-        <script type="text/javascript" src="js/wow.min.js"></script>
-        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-        <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
-        <script type="text/javascript" src="js/all.js"></script>
-        <script type="text/javascript" src="js/contact-form.js"></script>
-        <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script> 
-        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-        <script type="text/javascript" src="js/rev-slider.js"></script>        
+        <script type="text/javascript" src="../js/gmap3.min.js"></script>
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.simple-text-rotator.min.js"></script>
+        <script type="text/javascript" src="../js/all.js"></script>
+        <script type="text/javascript" src="../js/contact-form.js"></script>
+        <script type="text/javascript" src="../js/jquery.ajaxchimp.min.js"></script> 
+        <script type="text/javascript" src="../rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="../rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="../js/rev-slider.js"></script>        
         <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
         
     </body>
