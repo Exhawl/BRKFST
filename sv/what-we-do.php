@@ -37,7 +37,6 @@
         <div class="page" id="top">
             
             <!-- Navigation panel -->
-<<<<<<< HEAD:sv/what-we-do.php
             <nav class="main-nav dark transparent stick-fixed">
     <div class="full-wrapper relative clearfix">
         <!-- Logo ( * your text or image into link tag *) -->
@@ -88,9 +87,6 @@
 
     </div>
 </nav>
-=======
-            <?php include('nav.html'); ?>
->>>>>>> e9e776230c872c3f4b511233a5918bd0deff8e9a:sv/what-we-do.php
             <!-- End Navigation panel -->
 
           <!-- Divider -->
